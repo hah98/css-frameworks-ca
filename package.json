@@ -17,5 +17,11 @@
     "CSS"
   ],
   "author": "Hibo Harun <hibo-1998@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "sass": "^1.77.6"
+  }
 }
