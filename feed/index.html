@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feed</title>
-    <link rel="stylesheet" href="/dist/css/index.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -25,24 +24,21 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="/index.html">Login </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./profile/index.html">Profile</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="/profile/index.html">Profile</a>
             </li>
-           
+            <li class="nav-item active">
+              <a class="nav-link" href="/feed/index.html"
+                >Feed <span class="sr-only">(current)</span></a
+              >
+            </li>
           </ul>
-
-          <form
-            class="form-inline my-2 my-lg-0 ml-auto"
-            action="./feed/index.html"
-            method="post"
-            id="authForm"
-          >
+          <form class="form-inline my-2 my-lg-0 ml-auto">
             <input
               class="form-control mr-sm-2"
               type="search"
@@ -57,9 +53,234 @@
       </nav>
     </header>
 
-    <main><h1 class="fw-bold mb-5">Feeds Page</h1></main>
-    <footer></footer>
-    <!-- Include Bootstrap JS and jQuery (if needed) -->
+    <main class="container mt-5">
+      <h1 class="fw-bold mb-5">Feeds Page</h1>
+
+      <!-- Search Bar -->
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search posts..." />
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button">Search</button>
+        </div>
+      </div>
+
+      <!-- Sort Options -->
+      <div class="btn-group mb-3">
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Sort By
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Date</a>
+          <a class="dropdown-item" href="#">Popularity</a>
+        </div>
+      </div>
+
+      <!-- List of Posts Thumbnails -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/825/5000/3333.jpg?hmac=3zwAHJeExlAKUB2Z9g1iOiLOfoVH0_0R4sbcP-_mLds"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/853/3000/1993.jpg?hmac=7DD8LggxXlTe67zx4yxT4fc8UbPYbVTb_9bZkrnaJK8"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/37/2000/1333.jpg?hmac=vpYLNsQZwU2szsZc4Uo17cW786vR0GEUVq4icaKopQI"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Row of Posts -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/828/3165/2374.jpg?hmac=P07EiUQGzH3TNY0b3bNi4oWgETndZUmMaiJ8CL6EO8M"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/851/2592/1565.jpg?hmac=rALRkYdW8SAzdSUL4MUzOmlotl9Agt6CU53YqwhPDoI"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/866/4704/3136.jpg?hmac=I55vcxY9Vt3jgVTWqY8GjooRixzyYFPojxuMdtpIy9k"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Row of Posts -->
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/869/2000/1333.jpg?hmac=Tk2C8qV54xrD2UikYeuzEgtn0eVEA6ZXDYZr7MCRRjA"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/871/5000/3338.jpg?hmac=0cbFAJ55kp9mwznL2aX6NTWQp1VXOICQq-kaivG-Q_A"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://fastly.picsum.photos/id/878/2500/1656.jpg?hmac=YniAFarftfA3QCFapoMVz-kXE5paKGZfzwU75rCUz2c"
+              class="card-img-top"
+              alt="Post Thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Post Title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form to Create a New Post -->
+      <div class="card mt-5">
+        <div class="card-body">
+          <h5 class="card-title">Create New Post</h5>
+          <form>
+            <div class="form-group">
+              <label for="postTitle">Title</label>
+              <input
+                type="text"
+                class="form-control"
+                id="postTitle"
+                placeholder="Enter post title"
+              />
+            </div>
+            <div class="form-group">
+              <label for="postContent">Content</label>
+              <textarea
+                class="form-control"
+                id="postContent"
+                rows="3"
+                placeholder="Enter post content"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto bg-body-tertiary text-center text-lg-start">
+      <div
+        class="text-center py-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2024 Noroff Blog
+      </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
