@@ -33,7 +33,7 @@ This project is coded using:
 
 ## 🚀 Getting Started / Viewing the Project
 
-View the website: [Noroffblog](link comming)
+View the website: [Noroffblog](https://css-frameworkshah98.netlify.app/)
 
 ### 📦 Installing
 
@@ -48,7 +48,7 @@ git clone git@github.com:hah98/css-frameworks-ca.git
 
 Click the link below to run the site:
 
-[Noroffblog](link coming)
+[Noroffblog](https://css-frameworkshah98.netlify.app/)
 
 ## 🤝 Contributing
 
