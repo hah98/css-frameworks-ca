@@ -1,6 +1,7 @@
 # CSS Frameworks CA 🎨
 
-![Project Screenshot](https://github.com/hah98/SP2-CA/assets/74331454/7ef16508-01a9-4f65-8084-5a3ebf645755)
+![Skjermbilde 2024-06-23 kl  1 27 57 am](https://github.com/hah98/css-frameworks-ca/assets/74331454/fc25ad3a-e4a9-4095-b998-6a68b4d7023f)
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a286b586-527c-4548-8db0-8778544f0b1d/deploy-status)](https://app.netlify.com/sites/stalwart-daifuku-e289a0/deploys)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hah98/css-frameworks-ca)
