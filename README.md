@@ -3,10 +3,10 @@
 ![Project Screenshot](https://github.com/hah98/SP2-CA/assets/74331454/7ef16508-01a9-4f65-8084-5a3ebf645755)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a286b586-527c-4548-8db0-8778544f0b1d/deploy-status)](https://app.netlify.com/sites/stalwart-daifuku-e289a0/deploys)
-![GitHub repo size](https://img.shields.io/github/repo-size/hah98/css-frameworks-ca/tree/css-frameworks)
-![GitHub top language](https://img.shields.io/github/languages/top/hah98/css-frameworks-ca/tree/css-frameworks)
-![GitHub last commit](https://img.shields.io/github/last-commit/hah98/css-frameworks-ca/tree/css-frameworks)
-![GitHub](https://img.shields.io/github/license/hah98/css-frameworks-ca/tree/css-frameworks)
+![GitHub repo size](https://img.shields.io/github/repo-size/hah98/css-frameworks-ca)
+![GitHub top language](https://img.shields.io/github/languages/top/hah98/css-frameworks-ca)
+![GitHub last commit](https://img.shields.io/github/last-commit/hah98/css-frameworks-ca)
+![GitHub](https://img.shields.io/github/license/hah98/css-frameworks-ca)
 
 Welcome to CSS Frameworks CA, a responsive front end for a social media application built with Bootstrap and SASS called Noroff Blog.
 
@@ -43,7 +43,6 @@ How to clone the repository:
 ```bash
 git clone git@github.com:hah98/css-frameworks-ca.git
 ```
-
 ### ▶️ Running
 
 Click the link below to run the site:
